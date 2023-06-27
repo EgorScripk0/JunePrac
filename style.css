@@ -1,0 +1,76 @@
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section {
+  margin-bottom: 20px;
+}
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+  width: 200px;
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url("down-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+select:hover {
+  border-color: #888;
+}
+select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+select option {
+  background-color: #fff;
+  color: #333;
+}
+select option:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+select:active,
+select:focus {
+  background-color: #f2f2f2;
+}
+select:required:invalid {
+  color: gray;
+}
+select::-ms-expand {
+  display: none;
+}
+.btn-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn-1.btnn {
+  margin-right: 10px;
+}
+.btn-1:hover {
+  background-color: #555;
+  color: #fff;
+}
+.btn-1:active {
+  background-color: #333;
+}
+.btn-1:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

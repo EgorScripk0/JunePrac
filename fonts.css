@@ -1,0 +1,17 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Применение шрифтов к элементам */
+body,label,button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+option,select {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Дополнительные стили... */

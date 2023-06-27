@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>Radio Stations</title>
+</head>
+<body>
+    <section>
+        <h1>Запуск радиостанций по нажатию кнопки (вариант 1 и 3 жанры)</h1>
+    </section>
+    <section id="cntr">
+        <label for="strana">Выберите страну:</label>
+        <select id="strana">
+            <option value="Argentina">Аргентина</option>
+            <option value="Armenia">Армения</option>
+            <option value="Belarus">Беларусь</option>
+            <option value="Belgium">Бельгия</option>
+            <option value="Brazil">Бразилия</option>
+            <option value="Cuba">Куба</option>
+            <option value="Denmark">Дания</option>
+            <option value="Finland">Финляндия</option>
+            <option value="France">Франция</option>
+            <option value="Germany">Германия</option>
+            <option value="Greece">Греция</option>
+            <option value="Iceland">Исландия</option>
+            <option value="Japan">Япония</option>
+            <option value="Kazakhstan">Казахстан</option>
+            <option value="Norway">Норвегия</option>
+            <option value="Poland">Польша</option>
+            <option value="Portugal">Португалия</option>
+            <option value="Russia">Россия</option>
+            <option value="Slovenia">Словения</option>
+            <option value="Spain">Испания</option>
+            <option value="Switzerland">Швейцария</option>
+            <option value="Turkey">Турция</option>
+        </select>
+        <br>
+    </section>
+    <section id="cntr">
+        <label for="genre">Выберите жанр:</label>
+        <select id="genre">
+            <option value="latino">Латинское радио</option>
+            <option value="rock">Рок радио</option>
+            <option value="electronic">Электро радио</option>
+            <option value="relax">Релакс радио</option>
+        </select>
+        <br>
+    </section>
+    <section>
+    <label for="station" id="stat">Выберите радиостанцию:</label>
+    <select id="station" style="width: 15%;">
+    
+    </select>
+    </section>
+    <br>  
+    <section>
+    <button class="btn-1 btnn" onclick="loadStations()">Обновить список радиостанций</button>
+    <button class="btn-1 btnn" onclick="krData()">Запустить радио</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
